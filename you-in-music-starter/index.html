@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="You In Music turns real stories into deeply personal original songs." />
+  <title>You In Music | Your story already has a sound</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="You In Music home">
+      <span class="brand-mark">U</span>
+      <span class="brand-name">You In Music</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#how">How it works</a>
+      <a href="#why">Why it feels different</a>
+      <a href="#start" class="nav-cta">Create your song</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Personal songs. Real stories. Zero greeting card wallpaper.</p>
+        <h1>Your story already has a sound.</h1>
+        <p class="hero-lede">You In Music turns the memories, phrases, people, and tiny details that matter into an original song that sounds unmistakably like you.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#start">Put the you in music</a>
+          <a class="button button-secondary" href="#how">See how it works</a>
+        </div>
+        <p class="microcopy">Made with human storytelling and AI assisted production.</p>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Abstract soundwave artwork">
+        <div class="record-shell">
+          <div class="record-ring ring-one"></div>
+          <div class="record-ring ring-two"></div>
+          <div class="record-ring ring-three"></div>
+          <div class="record-center">
+            <span>U</span>
+            <small>in music</small>
+          </div>
+        </div>
+        <div class="floating-note note-one">first dance</div>
+        <div class="floating-note note-two">the blue porch light</div>
+        <div class="floating-note note-three">“you always came back”</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Service qualities">
+      <span>Emotionally specific</span>
+      <span>Guided story intake</span>
+      <span>Original lyrics and production</span>
+      <span>Made to keep</span>
+    </section>
+
+    <section id="why" class="story-section section-shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Not just personalized</p>
+        <h2>Recognizable.</h2>
+      </div>
+      <div class="story-grid">
+        <article class="story-card reveal">
+          <span class="card-number">01</span>
+          <h3>The details are the song</h3>
+          <p>The cereal eaten at midnight. The wrong turn that became the best day. The phrase only your family understands. Those are not extras. They are the fingerprints.</p>
+        </article>
+        <article class="story-card reveal">
+          <span class="card-number">02</span>
+          <h3>The intake is part of the gift</h3>
+          <p>You will not be handed a blank box and told to “tell us everything.” The questions help you remember what matters and make the process feel surprisingly lovely.</p>
+        </article>
+        <article class="story-card reveal">
+          <span class="card-number">03</span>
+          <h3>Technology stays behind the curtain</h3>
+          <p>AI helps with production, but the heart of the work is human. The goal is never to prove what a tool can do. The goal is to make someone feel known.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="process-section">
+      <div class="section-shell process-layout">
+        <div class="process-copy reveal">
+          <p class="eyebrow">How it works</p>
+          <h2>From memory pile to goosebumps.</h2>
+          <p>You bring the story. We find the emotional thread, shape the lyrics, guide the sound, and create a song you can replay long after the moment is over.</p>
+        </div>
+        <ol class="process-list">
+          <li class="reveal">
+            <span>1</span>
+            <div><h3>Tell us who and why</h3><p>Choose the person, occasion, and emotional center.</p></div>
+          </li>
+          <li class="reveal">
+            <span>2</span>
+            <div><h3>Share the pieces</h3><p>Answer guided questions about memories, phrases, personality, and meaning.</p></div>
+          </li>
+          <li class="reveal">
+            <span>3</span>
+            <div><h3>Shape the sound</h3><p>Pick the mood, genre direction, voice, pace, and anything that should stay far away.</p></div>
+          </li>
+          <li class="reveal">
+            <span>4</span>
+            <div><h3>Hear your story</h3><p>Receive an original song built around the details that make it yours.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="quote-section section-shell reveal">
+      <blockquote>
+        “The product is not merely a song. It is the strange, lovely moment when someone hears their own story returned to them in music.”
+      </blockquote>
+    </section>
+
+    <section id="start" class="intake-section">
+      <div class="section-shell intake-shell">
+        <div class="intake-intro reveal">
+          <p class="eyebrow">Start your song</p>
+          <h2>Let’s find the part that sings.</h2>
+          <p>This guided intake saves your progress in your browser. You can move forward, go back, and review everything before submitting.</p>
+        </div>
+
+        <div class="form-card reveal">
+          <div class="progress-wrap" aria-label="Form progress">
+            <div class="progress-copy"><span id="step-label">Step 1 of 5</span><span id="progress-percent">20%</span></div>
+            <div class="progress-track"><div id="progress-bar" class="progress-bar"></div></div>
+          </div>
+
+          <form id="song-form" novalidate>
+            <section class="form-step active" data-step="1">
+              <p class="form-kicker">The person</p>
+              <h3>Who is this song for?</h3>
+              <div class="field-grid two-col">
+                <label>Recipient name
+                  <input type="text" name="recipientName" placeholder="Their name" required />
+                </label>
+                <label>Your relationship
+                  <select name="relationship" required>
+                    <option value="">Choose one</option>
+                    <option>Partner or spouse</option>
+                    <option>Parent</option>
+                    <option>Child</option>
+                    <option>Friend</option>
+                    <option>Sibling</option>
+                    <option>For myself</option>
+                    <option>Someone else</option>
+                  </select>
+                </label>
+              </div>
+              <label>What is the occasion?
+                <select name="occasion" required>
+                  <option value="">Choose one</option>
+                  <option>Birthday</option>
+                  <option>Wedding or anniversary</option>
+                  <option>Memorial or remembrance</option>
+                  <option>Thank you</option>
+                  <option>Just because</option>
+                  <option>Personal anthem</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <fieldset>
+                <legend>What should they feel when they hear it?</legend>
+                <div class="chip-grid">
+                  <label class="chip"><input type="checkbox" name="feelings" value="Loved" /><span>Loved</span></label>
+                  <label class="chip"><input type="checkbox" name="feelings" value="Seen" /><span>Seen</span></label>
+                  <label class="chip"><input type="checkbox" name="feelings" value="Celebrated" /><span>Celebrated</span></label>
+                  <label class="chip"><input type="checkbox" name="feelings" value="Comforted" /><span>Comforted</span></label>
+                  <label class="chip"><input type="checkbox" name="feelings" value="Proud" /><span>Proud</span></label>
+                  <label class="chip"><input type="checkbox" name="feelings" value="Ready to ugly cry" /><span>Ready to ugly cry</span></label>
+                </div>
+              </fieldset>
+            </section>
+
+            <section class="form-step" data-step="2">
+              <p class="form-kicker">The story</p>
+              <h3>Give us the pieces only you would know.</h3>
+              <label>Tell us the story in your own words
+                <textarea name="story" rows="6" placeholder="How you met, what changed, what they survived, why they matter, the whole glorious tangle..." required></textarea>
+              </label>
+              <label>Three memories or moments that belong in the song
+                <textarea name="memories" rows="5" placeholder="A road trip in the rain, dancing in the kitchen, the hospital vending machine..." required></textarea>
+              </label>
+              <label>What makes this person unmistakably themselves?
+                <textarea name="personality" rows="4" placeholder="Habits, strengths, contradictions, quirks, the way they show love..." required></textarea>
+              </label>
+            </section>
+
+            <section class="form-step" data-step="3">
+              <p class="form-kicker">The fingerprints</p>
+              <h3>Now for the tiny details.</h3>
+              <label>Names, places, dates, pets, objects, or inside jokes to include
+                <textarea name="details" rows="5" placeholder="The blue porch light, Route 17, Bebe stealing the blanket, Sunday coffee..." required></textarea>
+              </label>
+              <label>Exact words or phrases that matter
+                <textarea name="phrases" rows="4" placeholder="Something they always say, a promise, a nickname, a text you saved..." required></textarea>
+              </label>
+              <label>Anything we should not mention
+                <textarea name="avoid" rows="3" placeholder="Sensitive details, names, topics, or clichés to avoid"></textarea>
+              </label>
+            </section>
+
+            <section class="form-step" data-step="4">
+              <p class="form-kicker">The sound</p>
+              <h3>What world should the song live in?</h3>
+              <div class="field-grid two-col">
+                <label>Genre direction
+                  <select name="genre" required>
+                    <option value="">Choose one</option>
+                    <option>Acoustic singer songwriter</option>
+                    <option>Country</option>
+                    <option>Indie pop</option>
+                    <option>Pop ballad</option>
+                    <option>Rock</option>
+                    <option>R and B</option>
+                    <option>Electronic or dance</option>
+                    <option>Cinematic</option>
+                    <option>Surprise me</option>
+                  </select>
+                </label>
+                <label>Vocal preference
+                  <select name="vocal" required>
+                    <option value="">Choose one</option>
+                    <option>Female vocal</option>
+                    <option>Male vocal</option>
+                    <option>Duet</option>
+                    <option>No preference</option>
+                  </select>
+                </label>
+              </div>
+              <fieldset>
+                <legend>Choose the overall energy</legend>
+                <div class="radio-cards">
+                  <label><input type="radio" name="energy" value="Soft and intimate" required /><span><strong>Soft and intimate</strong><small>Close, warm, tender</small></span></label>
+                  <label><input type="radio" name="energy" value="Big and cinematic" /><span><strong>Big and cinematic</strong><small>Build, lift, goosebumps</small></span></label>
+                  <label><input type="radio" name="energy" value="Joyful and alive" /><span><strong>Joyful and alive</strong><small>Bright, rhythmic, celebratory</small></span></label>
+                  <label><input type="radio" name="energy" value="Raw and honest" /><span><strong>Raw and honest</strong><small>Imperfect, direct, emotional</small></span></label>
+                </div>
+              </fieldset>
+              <label>Reference songs or artists
+                <textarea name="references" rows="3" placeholder="For direction only. We will not copy lyrics or melodies."></textarea>
+              </label>
+            </section>
+
+            <section class="form-step" data-step="5">
+              <p class="form-kicker">The handoff</p>
+              <h3>Review the heart of it.</h3>
+              <div id="review-panel" class="review-panel"></div>
+              <div class="field-grid two-col">
+                <label>Your name
+                  <input type="text" name="customerName" placeholder="Your name" required />
+                </label>
+                <label>Email address
+                  <input type="email" name="email" placeholder="you@example.com" required />
+                </label>
+              </div>
+              <label>When do you need it?
+                <input type="date" name="deadline" />
+              </label>
+              <label class="consent-row"><input type="checkbox" name="consent" required /><span>I understand this is a creative interpretation built from the story I provide.</span></label>
+              <div class="submit-note">
+                <strong>Prototype mode</strong>
+                <p>The final button currently saves a local project summary. Connect it to Stripe, email, Airtable, or your preferred backend when ready.</p>
+              </div>
+            </section>
+
+            <div class="form-actions">
+              <button id="back-button" class="button button-secondary" type="button" disabled>Back</button>
+              <button id="next-button" class="button button-primary" type="button">Continue</button>
+              <button id="submit-button" class="button button-primary hidden" type="submit">Save song request</button>
+            </div>
+            <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="section-shell reveal">
+        <p class="eyebrow">There is a song hiding in there</p>
+        <h2>Not a generic song with their name dropped into the chorus.</h2>
+        <p>A real emotional artifact. Something with fingerprints.</p>
+        <a class="button button-light" href="#start">Start the story</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">U</span><span class="brand-name">You In Music</span></a>
+      <p>Human storytelling with AI assisted production.</p>
+    </div>
+    <p>© <span id="year"></span> You In Music. Built around the part that matters.</p>
+  </footer>
+
+  <template id="success-template">
+    <div class="success-card">
+      <span class="success-icon">♪</span>
+      <h3>Your story is safely tucked in.</h3>
+      <p>A project summary has been downloaded and saved locally in this browser.</p>
+      <button class="button button-secondary" type="button" id="start-over-button">Start another song</button>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
